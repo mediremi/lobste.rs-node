@@ -1,0 +1,20 @@
+{
+  "name": "lobsters",
+  "version": "1.0.0",
+  "description": "Get lobste.rs stories",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medimatrix/lobste.rs-node.git"
+  },
+  "keywords": [
+    "lobste.rs",
+    "news"
+  ],
+  "author": "Médi-Rémi Hashim",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/medimatrix/lobste.rs-node/issues"
+  },
+  "homepage": "https://github.com/medimatrix/lobste.rs-node"
+}
