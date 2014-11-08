@@ -22,6 +22,7 @@ lobsters(function(err, stories) {
 ## API
 ### `lobsters` -> ([hottest|newest], callback)
 The first argument is an optional string specifying which stories to get.
+The possible values are `"hottest"` and `"newest"`
 
 This module follows `node.js` conventions by passing two arguments to
 `callback`: `err` and `stories`.
