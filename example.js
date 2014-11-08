@@ -15,7 +15,9 @@ getLobstersStories(function(err, stories) {
 		process.exit(1)
 	}
 
-	stories.forEach(function(story) {
+	stories.sort(function(a, b) {
+		return b.score - a.score
+	}).forEach(function(story) {
 		console.log(padNumber(3, story.score),
 		            story.title,
 		            "[" + story.tags.join(" ") + "]")
