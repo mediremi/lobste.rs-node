@@ -19,6 +19,8 @@ lobsters(function(err, stories) {
 
 [example.js](example.js) shows you one way to lay out `lobste.rs` stories.
 
+The wiki [has a page showing you how to use `lobste.rs-node` with Emacs](https://github.com/medimatrix/lobste.rs-node/wiki/Using-lobste.rs-node-with-Emacs).
+
 ## API
 ### `lobsters` -> ([hottest|newest], callback)
 The first argument is an optional string specifying which stories to get.
